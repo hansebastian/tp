@@ -250,14 +250,17 @@ _{Explain here how the data archiving feature will be implemented}_
 
 Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unlikely to have) - `*`
 
-| Priority | As a …​                                    | I want to …​                     | So that I can…​                                                        |
-| -------- | ------------------------------------------ | ------------------------------ | ---------------------------------------------------------------------- |
-| `* * *`  | new user                                   | see usage instructions         | refer to instructions when I forget how to use the App                 |
-| `* * *`  | user                                       | add a new person               |                                                                        |
-| `* * *`  | user                                       | delete a person                | remove entries that I no longer need                                   |
-| `* * *`  | user                                       | find a person by name          | locate details of persons without having to go through the entire list |
-| `* *`    | user                                       | hide private contact details   | minimize chance of someone else seeing them by accident                |
-| `*`      | user with many persons in the address book | sort persons by name           | locate a person easily                                                 |
+| Priority | As a …​                                 | I want to …​                                   | So that I can…​                                                     |
+| -------- | ------------------------------------------ | ------------------------------------------------- | ---------------------------------------------------------------------- |
+| `* * *`  | Organized student                          | Keep track of all my tasks in my weekly schedule  | Have all necessary details for a full-time student in one place        |
+| `* * *`  | Organized student                          | Set priority levels for my tasks                  | See which of my tasks are the most urgent to complete                  |
+| `* * *`  | Forgetful student                          | Create task lists                                 | Keep track of the tasks that I need to do                              |
+| `* * *`  | Forgetful student                          | Add reminders to a task                           | Be reminded to complete the task before its deadline                   |
+| `* * *`  | Lazy student                               | Have built-in information about modules           | Easily include them in my module schedule without missing any detail   |
+| `* * *`  | Lazy student                               | Create custom templates for my weeks              | Minimize the amount of repeated tasks I need to input per week         |
+| `* *`    | New student                                | Have a built-in help guide                        | Familiarize myself with teh application quickly                        |
+| `* *`    | Meticulous student                         | Have a categorical breakdown of my tasks          | Manage my time better                                                  |
+| `*`      | Lazy student                               | Load task schedule templates created by others    | Avoid creating everything from scratch on my own                       |
 
 *{More to be added}*
 
