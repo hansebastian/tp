@@ -3,7 +3,7 @@ layout: page
 title: Hans Sebastian Tirtaputra's Project Portfolio
 ---
 
-## Project: GrAB3 
+## Project: GrAB3
 GrAB3 is an all in one planner application that provides a simple way for university students to stay ahead of their
 busy schedules. The student interacts with the application using a command-line interface (CLI).
 

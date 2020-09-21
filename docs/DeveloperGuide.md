@@ -242,7 +242,7 @@ _{Explain here how the data archiving feature will be implemented}_
 * Is a fast typist
 * Prefers typing over using mouse input
 
-**Value proposition**: 
+**Value proposition**:
 * A one stop solution for university students to manage their weekly tasks and module requirements.
 
 

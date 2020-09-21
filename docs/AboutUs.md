@@ -48,7 +48,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
 
-### Hans Sebastian Tirtaputra 
+### Hans Sebastian Tirtaputra
 
 <img src="images/hansebastian.png" width="200px">
 
