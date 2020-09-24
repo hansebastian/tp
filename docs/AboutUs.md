@@ -9,44 +9,35 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Galvin Leow Wen Yuan
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/galvinleow.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Project Advisor
-
-### Jane Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/galvinleow)]
+[[portfolio](team/galvinleow.md)]
 
 * Role: Team Lead
-* Responsibilities: UI
+* Responsibilities: UG, Scheduling
 
-### Johnny Doe
+### Wei Kit Khoong
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/khoongwk.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: Data
-
-### Jean Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/khoongwk)] 
+[[portfolio](team/khoongwk.md)]
 
 * Role: Developer
-* Responsibilities: Dev Ops + Threading
+* Responsibilities: Code Quality
+
+### Chang Rui Feng
+
+<img src="images/ruifengg.png" width="200px">
+
+[[github](http://github.com/RuiFengg)]
+[[portfolio](team/ruifengg.md)]
+
+* Role: Developer
+* Responsibilities: Code quality
 
 ### Hans Sebastian Tirtaputra
 
@@ -57,3 +48,24 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Developer
 * Responsibilities: UI
+
+<<<<<<< HEAD
+### Hans Sebastian Tirtaputra
+
+<img src="images/hansebastian.png" width="200px">
+
+[[github](http://github.com/hansebastian)]
+[[portfolio](team/hansebastian.md)]
+=======
+### Tan Yan Lyn
+
+<img src="images/yanlynnnnn.png" width="200px">
+
+[[github](https://github.com/yanlynnnnn)]
+[[portfolio](team/yanlynnnnn.md)]
+* Role: Developer
+* Responsibilities: UI
+
+
+
+

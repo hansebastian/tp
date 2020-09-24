@@ -3,7 +3,8 @@ layout: page
 title: User Guide
 ---
 
-AddressBook Level 3 (AB3) is a **desktop app for managing contacts, optimized for use via a Command Line Interface** (CLI) while still having the benefits of a Graphical User Interface (GUI). If you can type fast, AB3 can get your contact management tasks done faster than traditional GUI apps.
+GrAB3 is an **all in one planner application** that provides a simple way for university students to stay ahead of their
+busy schedules. The student interacts with the application using a command-line interface (CLI).
 
 * Table of Contents
 {:toc}
@@ -45,7 +46,7 @@ AddressBook Level 3 (AB3) is a **desktop app for managing contacts, optimized fo
 **:information_source: Notes about the command format:**<br>
 
 * Words in `UPPER_CASE` are the parameters to be supplied by the user.<br>
-  e.g. in `add n/NAME`, `NAME` is a parameter which can be used as `add n/John Doe`.
+  e.g. in `setup n/NAME`, `NAME` is a parameter which can be used as `setup n/John Doe`.
 
 * Items in square brackets are optional.<br>
   e.g `n/NAME [t/TAG]` can be used as `n/John Doe t/friend` or as `n/John Doe`.
@@ -67,27 +68,71 @@ Shows a message explaning how to access the help page.
 Format: `help`
 
 
-### Adding a person: `add`
+### Initialize User and Semester Information : `setup`
 
-Adds a person to the address book.
+Setup User and Semester data, including username, semester term and fiscal year.
 
-Format: `add n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS [t/TAG]…​`
+Format: `setup n/USERNAME sd/STARTDURATION ed/ENDDURATION fy/FISCALYEAR`
+
+- The `STARTDURATION` has to be **before** `ENDDURATION`
+
+Examples:
+* `setup n/John Doe sd/22-09-2020 ed/29-11-2020 fy/AY20/21 Sem 1`
+* `setup fy/AY20/21 Sem 1 ed/29-11-2020 n/Betsy Crowe sd/22-09-2020`
+
+### Edit Setup Details : `editsetup`
+
+Edit Setup details for GrAB3, including username, semester term and fiscal year.
+
+Format: `editsetup [n/USERNAME] [sd/STARTDURATION] [ed/ENDDURATION] [fy/FISCALYEAR]`
 
 <div markdown="span" class="alert alert-primary">:bulb: **Tip:**
-A person can have any number of tags (including 0)
+Edit the duration of the semester with either start duration or end duration or both
 </div>
 
 Examples:
-* `add n/John Doe p/98765432 e/johnd@example.com a/John street, block 123, #01-01`
-* `add n/Betsy Crowe t/friend e/betsycrowe@example.com a/Newgate Prison p/1234567 t/criminal`
+*  `editsetup n/Jane Doe sd/23-02-2020 ed/29-06-2020 fy/AY19/20 Sem 2`
+*  `editsetup n/Jenny Doe sd/23-02-2020 fy/AY19/20 Sem 2`
 
-### Listing all persons : `list`
+### Delete Setup Details: `deletesetup`
+
+Delete all setup details in GrAB3.
+
+Format: `deletesetup` 
+
+### Add a Task to Task Schedule: `addtask`
+
+Add a task to the task schedule in GrAB3.
+
+Format: `addtask n/NAME sd/DATE d/DURATION [t/TAG]`
+
+- Addition of a task to a specific day will be **rejected** if the total tasks for that day exceed 24 hours.
+
+Examples:
+* `addtask n/John Doe sd/20-09-2020 d/2`
+* `addtask n/John Doe sd/20-09-2020 d/2 t/CS2101`
+
+### Edit Task Details: `edittask`
+
+Edit task details for GrAB3, including task name, date, duration and tag.
+
+Format: `edittask i/INDEX n/TASKNAME sd/DATE d/DURATION`
+
+- The index must be a **positive integer** and must be **valid**
+- `DURATION` must be in hours
+
+Example:
+* `edittask i/2 n/Complete 2103 Project sd/20-09-2020 d/3`
+* `edittask i/2 sd/20-09-2020`
+* `edittask i/2 n/Complete 2103 Project d/4`
+
+### Listing All Persons : `list`
 
 Shows a list of all persons in the address book.
 
 Format: `list`
 
-### Editing a person : `edit`
+### Editing a Person : `edit`
 
 Edits an existing person in the address book.
 
